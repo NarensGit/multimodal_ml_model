@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engagement Model - Upload Features CSV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body class="p-4">
+    <div class="container">
+      <h1>Engagement Model — Upload features CSV</h1>
+      <p>Upload a CSV with the same feature columns used during training (see `models/feature_columns.joblib`).</p>
+      <form action="/predict" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+          <input class="form-control" type="file" name="file" accept=".csv">
+        </div>
+        <button class="btn btn-primary" type="submit">Upload & Predict</button>
+      </form>
+      <hr>
+      <p>Quick smoke: use `smoke_test.py` to verify model loads before uploading.</p>
+    </div>
+  </body>
+</html>

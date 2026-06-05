@@ -1,0 +1,1041 @@
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:47: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  start = df.index[0].ceil('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:48: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  end = df.index[-1].floor('S')
+/Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/create_processed_dataset.py:52: FutureWarning: 'S' is deprecated and will be removed in a future version, please use 's' instead.
+  new_idx = pd.date_range(start, end, freq='1S')
+Saved model to: /Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/models/engagement_recognition_model.joblib
+Saved feature columns to: /Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/models/feature_columns.joblib
+Saved metrics to: /Users/narenkrishnaperumal/Desktop/Internship Docs/multimodal_ml_model/results/model_metrics.joblib
+Features used: 42
+Test accuracy: 0.9032
+Confusion matrix:
+[[41  3]
+ [ 6 43]]
+Classification report:
+              precision    recall  f1-score    support
+Not Engaged    0.872340  0.931818  0.901099  44.000000
+Engaged        0.934783  0.877551  0.905263  49.000000
+accuracy       0.903226  0.903226  0.903226   0.903226
+macro avg      0.903562  0.904685  0.903181  93.000000
+weighted avg   0.905240  0.903226  0.903293  93.000000
