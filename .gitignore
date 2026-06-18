@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+model_metrics.txt
+text.txt

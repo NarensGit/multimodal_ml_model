@@ -3,21 +3,939 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Engagement Model - Upload Features CSV</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>ASD Engagement Classifier</title>
+    
+    <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+      :root {
+        --bg-color: #080c14;
+        --card-bg: rgba(17, 24, 39, 0.65);
+        --border-color: rgba(255, 255, 255, 0.08);
+        --text-main: #f3f4f6;
+        --text-muted: #9ca3af;
+        
+        /* Harmonious Tailored Accents */
+        --color-baseline: #06b6d4; /* cyan */
+        --color-low: #f59e0b;      /* amber */
+        --color-high: #a855f7;     /* purple */
+        
+        --glow-baseline: rgba(6, 182, 212, 0.35);
+        --glow-low: rgba(245, 158, 11, 0.35);
+        --glow-high: rgba(168, 85, 247, 0.35);
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        font-family: 'Inter', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: 
+          radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%),
+          radial-gradient(circle at 90% 80%, rgba(236, 72, 153, 0.08) 0%, transparent 45%);
+        padding: 24px;
+        overflow-x: hidden;
+      }
+
+      .app-wrapper {
+        width: 100%;
+        max-width: 760px;
+        perspective: 1000px;
+      }
+
+      .app-container {
+        background: var(--card-bg);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid var(--border-color);
+        border-radius: 28px;
+        padding: 40px;
+        box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7);
+        transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        transform-style: preserve-3d;
+      }
+
+      h1 {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 2.25rem;
+        background: linear-gradient(135deg, #fff 30%, #a5b4fc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin-bottom: 8px;
+        letter-spacing: -0.03em;
+      }
+
+      .subtitle {
+        color: var(--text-muted);
+        text-align: center;
+        font-size: 0.95rem;
+        margin-bottom: 36px;
+        line-height: 1.5;
+      }
+
+      /* Dynamic Stages */
+      .stage {
+        display: none;
+        animation: fadeIn 0.4s ease-out forwards;
+      }
+
+      .stage.active {
+        display: block;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(12px) scale(0.98);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+      }
+
+      /* 1. Drag & Drop Area */
+      .drop-zone {
+        border: 2px dashed rgba(255, 255, 255, 0.12);
+        border-radius: 20px;
+        padding: 56px 28px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        background: rgba(255, 255, 255, 0.01);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .drop-zone:hover {
+        border-color: rgba(99, 102, 241, 0.5);
+        background: rgba(99, 102, 241, 0.02);
+        box-shadow: 0 0 30px rgba(99, 102, 241, 0.08);
+      }
+
+      .drop-zone.dragover {
+        border-color: #6366f1;
+        background: rgba(99, 102, 241, 0.06);
+        box-shadow: 0 0 40px rgba(99, 102, 241, 0.15);
+        transform: scale(1.01);
+      }
+
+      .drop-zone input[type="file"] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+      }
+
+      .upload-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 20px;
+        color: #818cf8;
+        transition: transform 0.3s ease;
+      }
+
+      .drop-zone:hover .upload-icon {
+        transform: translateY(-4px);
+      }
+
+      .upload-text {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+
+      .upload-hint {
+        color: var(--text-muted);
+        font-size: 0.85rem;
+      }
+
+      /* 2. Loading State */
+      .loader-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0;
+      }
+
+      .scanner {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 2px solid rgba(99, 102, 241, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+      }
+
+      .scanner::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        border-top-color: #818cf8;
+        animation: spin 1s linear infinite;
+      }
+
+      .scanner-pulse {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: rgba(99, 102, 241, 0.2);
+        animation: pulse 1.5s ease-out infinite;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes pulse {
+        0% { transform: scale(0.8); opacity: 0.5; }
+        50% { transform: scale(1.1); opacity: 0.8; }
+        100% { transform: scale(0.8); opacity: 0.5; }
+      }
+
+      .loader-text {
+        font-weight: 500;
+        font-size: 1.05rem;
+        letter-spacing: 0.02em;
+        animation: pulseText 1.5s infinite ease-in-out;
+      }
+
+      @keyframes pulseText {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+
+      /* 3. Prediction Result Layout */
+      .result-wrapper {
+        text-align: center;
+      }
+
+      .level-card {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        padding: 32px 20px;
+        margin-bottom: 28px;
+        box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.02);
+      }
+
+      .result-label {
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--text-muted);
+        margin-bottom: 12px;
+      }
+
+      .engagement-level {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 900;
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: -0.01em;
+        line-height: 1;
+        transition: all 0.3s ease;
+        display: inline-block;
+        padding: 0 10px;
+      }
+
+      /* Dynamic Theming for Prediction Results */
+      .status-baseline {
+        color: var(--color-baseline);
+        text-shadow: 0 0 25px var(--glow-baseline);
+      }
+
+      .status-low {
+        color: var(--color-low);
+        text-shadow: 0 0 25px var(--glow-low);
+      }
+
+      .status-high {
+        color: var(--color-high);
+        text-shadow: 0 0 25px var(--glow-high);
+      }
+
+      /* Capsule Distribution Progress Bar */
+      .distribution-bar {
+        display: flex;
+        height: 12px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 100px;
+        overflow: hidden;
+        margin: 24px 0 12px;
+      }
+
+      .bar-segment {
+        height: 100%;
+        transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .bar-baseline { background-color: var(--color-baseline); }
+      .bar-low { background-color: var(--color-low); }
+      .bar-high { background-color: var(--color-high); }
+
+      .legend {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 36px;
+      }
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+
+      .legend-color {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+
+      /* Collapsible Panel details */
+      .details-trigger {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: var(--text-main);
+        padding: 12px 28px;
+        border-radius: 100px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 24px;
+      }
+
+      .details-trigger:hover {
+        background: rgba(255, 255, 255, 0.04);
+        border-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-1px);
+      }
+
+      .details-trigger svg {
+        transition: transform 0.3s ease;
+      }
+
+      .details-trigger.active svg {
+        transform: rotate(180deg);
+      }
+
+      .collapsible-details {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s cubic-bezier(0.3, 0.8, 0.3, 1);
+        text-align: left;
+      }
+
+      .details-inner {
+        padding: 24px 0 10px;
+        border-top: 1px solid var(--border-color);
+      }
+
+      .chart-container {
+        position: relative;
+        height: 240px;
+        margin-bottom: 32px;
+      }
+
+      .table-wrapper {
+        max-height: 300px;
+        overflow-y: auto;
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        background: rgba(0, 0, 0, 0.15);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+      }
+
+      th, td {
+        padding: 12px 16px;
+        text-align: left;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      th {
+        background: rgba(255, 255, 255, 0.02);
+        color: var(--text-muted);
+        font-weight: 600;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .badge-baseline {
+        background: rgba(6, 182, 212, 0.1);
+        color: var(--color-baseline);
+      }
+
+      .badge-low {
+        background: rgba(245, 158, 11, 0.1);
+        color: var(--color-low);
+      }
+
+      .badge-high {
+        background: rgba(168, 85, 247, 0.1);
+        color: var(--color-high);
+      }
+
+      .btn-download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+        color: white;
+        border: none;
+        padding: 14px 28px;
+        border-radius: 14px;
+        font-weight: 600;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        margin-top: 24px;
+        box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4);
+      }
+
+      .btn-download:hover {
+        background: linear-gradient(135deg, #818cf8 0%, #6366f1 100%);
+        box-shadow: 0 15px 25px -5px rgba(99, 102, 241, 0.5);
+        transform: translateY(-2px);
+      }
+
+      .action-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32px;
+      }
+
+      .btn-secondary {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: var(--text-muted);
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .btn-secondary:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+        color: var(--text-main);
+      }
+
+      /* Alert overlay */
+      .alert-toast {
+        background: rgba(239, 68, 68, 0.15);
+        border: 1px solid rgba(239, 68, 68, 0.3);
+        color: #ef4444;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin-bottom: 24px;
+        font-size: 0.9rem;
+        display: none;
+        animation: shake 0.4s ease-out;
+      }
+
+      @keyframes shake {
+        0%, 100% { transform: translateX(0); }
+        25% { transform: translateX(-6px); }
+        75% { transform: translateX(6px); }
+      }
+    </style>
   </head>
-  <body class="p-4">
-    <div class="container">
-      <h1>Engagement Model — Upload features CSV</h1>
-      <p>Upload a CSV with the same feature columns used during training (see `models/feature_columns.joblib`).</p>
-      <form action="/predict" method="post" enctype="multipart/form-data">
-        <div class="mb-3">
-          <input class="form-control" type="file" name="file" accept=".csv">
+  <body>
+    
+    <div class="app-wrapper">
+      <div class="app-container">
+        
+        <h1>ASD Engagement Classifier</h1>
+        <p class="subtitle" id="hub-subtitle">Real-time multimodal engagement recognition in children with Autism Spectrum Disorder (ASD) using physiological and behavioral signals.</p>
+        
+        <!-- Error Alert Container -->
+        <div id="error-alert" class="alert-toast"></div>
+        
+        <!-- Stage 1: File Upload Drop Zone -->
+        <div id="stage-upload" class="stage active">
+          <div class="drop-zone" id="drop-zone">
+            <!-- Inline SVG Cloud Upload Icon -->
+            <svg class="upload-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+            </svg>
+            <div class="upload-text">Drag & drop features CSV here</div>
+            <div class="upload-hint">or click to browse local files</div>
+            <input type="file" id="file-input" accept=".csv">
+          </div>
         </div>
-        <button class="btn btn-primary" type="submit">Upload & Predict</button>
-      </form>
-      <hr>
-      <p>Quick smoke: use `smoke_test.py` to verify model loads before uploading.</p>
+        
+        <!-- Stage 2: Processing Loader -->
+        <div id="stage-loading" class="stage">
+          <div class="loader-container">
+            <div class="scanner">
+              <div class="scanner-pulse"></div>
+            </div>
+            <div class="loader-text">Processing physiological & behavioral signals...</div>
+          </div>
+        </div>
+        
+        <!-- Stage 3: Results Display -->
+        <div id="stage-results" class="stage">
+          <div class="result-wrapper">
+            
+            <div class="level-card">
+              <div class="result-label">Engagement Classification</div>
+              <div id="engagement-badge" class="engagement-level">HIGH</div>
+            </div>
+            
+            <!-- Capsule Distribution Bar -->
+            <div class="distribution-bar">
+              <div id="bar-baseline" class="bar-segment bar-baseline" style="width: 0%"></div>
+              <div id="bar-low" class="bar-segment bar-low" style="width: 0%"></div>
+              <div id="bar-high" class="bar-segment bar-high" style="width: 0%"></div>
+            </div>
+            
+            <!-- Legend Indicators -->
+            <div class="legend">
+              <div class="legend-item">
+                <span class="legend-color" style="background-color: var(--color-baseline)"></span>
+                Baseline: <span id="txt-baseline" style="font-weight: 600; margin-left: 4px;">0%</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color" style="background-color: var(--color-low)"></span>
+                Low: <span id="txt-low" style="font-weight: 600; margin-left: 4px;">0%</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color" style="background-color: var(--color-high)"></span>
+                High: <span id="txt-high" style="font-weight: 600; margin-left: 4px;">0%</span>
+              </div>
+            </div>
+            
+            <!-- Trigger to show detailed panel -->
+            <button id="btn-toggle-details" class="details-trigger">
+              More Details
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            
+            <!-- Collapsible Panel for Log & Charts -->
+            <div id="details-panel" class="collapsible-details">
+              <div class="details-inner">
+                
+                <!-- Probability chart over time -->
+                <div class="chart-container">
+                  <canvas id="predictionChart"></canvas>
+                </div>
+                
+                <!-- Prediction list table -->
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Window</th>
+                        <th>Relative Time</th>
+                        <th>Prediction</th>
+                        <th>Classification Probs (B / L / H)</th>
+                      </tr>
+                    </thead>
+                    <tbody id="table-body">
+                      <!-- Programmatically Populated -->
+                    </tbody>
+                  </table>
+                </div>
+                
+                <!-- Download raw results -->
+                <a id="btn-csv-download" class="btn-download" href="#" target="_blank">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                  </svg>
+                  Download Predictions CSV
+                </a>
+                
+              </div>
+            </div>
+            
+            <!-- Back navigation button -->
+            <div class="action-row">
+              <button id="btn-restart" class="btn-secondary">Upload New File</button>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
     </div>
+
+    <script>
+      // DOM Selectors
+      const dropZone = document.getElementById('drop-zone');
+      const fileInput = document.getElementById('file-input');
+      const errorAlert = document.getElementById('error-alert');
+      const hubSubtitle = document.getElementById('hub-subtitle');
+      
+      const stageUpload = document.getElementById('stage-upload');
+      const stageLoading = document.getElementById('stage-loading');
+      const stageResults = document.getElementById('stage-results');
+      
+      const badgeEngagement = document.getElementById('engagement-badge');
+      const barBaseline = document.getElementById('bar-baseline');
+      const barLow = document.getElementById('bar-low');
+      const barHigh = document.getElementById('bar-high');
+      
+      const txtBaseline = document.getElementById('txt-baseline');
+      const txtLow = document.getElementById('txt-low');
+      const txtHigh = document.getElementById('txt-high');
+      
+      const btnToggleDetails = document.getElementById('btn-toggle-details');
+      const detailsPanel = document.getElementById('details-panel');
+      const tableBody = document.getElementById('table-body');
+      const btnCsvDownload = document.getElementById('btn-csv-download');
+      const btnRestart = document.getElementById('btn-restart');
+      
+      let chartInstance = null;
+
+      // Event Listeners for Drag and Drop
+      ['dragenter', 'dragover'].forEach(eventName => {
+        dropZone.addEventListener(eventName, e => {
+          e.preventDefault();
+          dropZone.classList.add('dragover');
+        }, false);
+      });
+
+      ['dragleave', 'drop'].forEach(eventName => {
+        dropZone.addEventListener(eventName, e => {
+          e.preventDefault();
+          dropZone.classList.remove('dragover');
+        }, false);
+      });
+
+      dropZone.addEventListener('drop', e => {
+        const dt = e.dataTransfer;
+        const files = dt.files;
+        if (files.length > 0) {
+          handleFile(files[0]);
+        }
+      });
+
+      fileInput.addEventListener('change', e => {
+        if (e.target.files.length > 0) {
+          handleFile(e.target.files[0]);
+        }
+      });
+
+      // Toggle details expansion
+      btnToggleDetails.addEventListener('click', () => {
+        const isOpen = btnToggleDetails.classList.contains('active');
+        if (isOpen) {
+          btnToggleDetails.classList.remove('active');
+          detailsPanel.style.maxHeight = '0px';
+        } else {
+          btnToggleDetails.classList.add('active');
+          // Allow overflow for scroll containers to expand correctly
+          detailsPanel.style.maxHeight = detailsPanel.scrollHeight + 'px';
+          
+          // Re-update layout on scroll height refresh
+          setTimeout(() => {
+            if (btnToggleDetails.classList.contains('active')) {
+              detailsPanel.style.maxHeight = 'none';
+            }
+          }, 500);
+        }
+      });
+
+      // Back navigation
+      btnRestart.addEventListener('click', () => {
+        showStage('upload');
+        errorAlert.style.display = 'none';
+        fileInput.value = ''; // Reset file input
+      });
+
+      // Show stage wrapper
+      function showStage(stage) {
+        stageUpload.classList.remove('active');
+        stageLoading.classList.remove('active');
+        stageResults.classList.remove('active');
+        
+        if (stage === 'upload') {
+          stageUpload.classList.add('active');
+          hubSubtitle.style.display = 'block';
+        } else if (stage === 'loading') {
+          stageLoading.classList.add('active');
+          hubSubtitle.style.display = 'none';
+        } else if (stage === 'results') {
+          stageResults.classList.add('active');
+          hubSubtitle.style.display = 'none';
+        }
+      }
+
+      // Handle raw files
+      function handleFile(file) {
+        if (!file.name.endsWith('.csv')) {
+          showError('Invalid file type. Please upload a structured .csv dataset.');
+          return;
+        }
+        
+        showStage('loading');
+        errorAlert.style.display = 'none';
+        
+        const formData = new FormData();
+        formData.append('file', file);
+        
+        fetch('/predict', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => {
+          if (!response.ok) {
+            return response.json().then(data => {
+              throw new Error(data.error || 'Server error classification failed.');
+            });
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (data.success) {
+            renderResults(data);
+            showStage('results');
+          } else {
+            throw new Error(data.error || 'Prediction failure.');
+          }
+        })
+        .catch(err => {
+          showStage('upload');
+          showError(err.message);
+        });
+      }
+
+      // Display warning banner
+      function showError(message) {
+        errorAlert.innerText = message;
+        errorAlert.style.display = 'block';
+      }
+
+      // Render prediction outcomes
+      function renderResults(data) {
+        // Overall classification mapping
+        const label = data.overall_engagement.toLowerCase();
+        badgeEngagement.innerText = data.overall_engagement;
+        
+        // Clean previous theme classes
+        badgeEngagement.className = 'engagement-level';
+        if (label === 'baseline') {
+          badgeEngagement.classList.add('status-baseline');
+        } else if (label === 'low') {
+          badgeEngagement.classList.add('status-low');
+        } else if (label === 'high') {
+          badgeEngagement.classList.add('status-high');
+        }
+        
+        // Map distributions
+        const dist = data.distribution;
+        barBaseline.style.width = dist.baseline + '%';
+        barLow.style.width = dist.low + '%';
+        barHigh.style.width = dist.high + '%';
+        
+        txtBaseline.innerText = dist.baseline.toFixed(1) + '%';
+        txtLow.innerText = dist.low.toFixed(1) + '%';
+        txtHigh.innerText = dist.high.toFixed(1) + '%';
+        
+        // Update download path
+        btnCsvDownload.href = data.download_url;
+        
+        // Populate tabular view
+        tableBody.innerHTML = '';
+        const labels = [];
+        const baselineProbs = [];
+        const lowProbs = [];
+        const highProbs = [];
+        
+        data.rows.forEach(row => {
+          const tr = document.createElement('tr');
+          const relativeTimeText = `${row.start_time.toFixed(0)}s`;
+          
+          let probText = '-';
+          if (row.probabilities) {
+            const b = (row.probabilities.baseline * 100).toFixed(0);
+            const l = (row.probabilities.low * 100).toFixed(0);
+            const h = (row.probabilities.high * 100).toFixed(0);
+            probText = `${b}% / ${l}% / ${h}%`;
+            
+            // Collect chart stats
+            baselineProbs.push(row.probabilities.baseline);
+            lowProbs.push(row.probabilities.low);
+            highProbs.push(row.probabilities.high);
+          }
+          
+          labels.push(relativeTimeText);
+          
+          let badgeClass = 'badge-baseline';
+          if (row.prediction === 'low') badgeClass = 'badge-low';
+          if (row.prediction === 'high') badgeClass = 'badge-high';
+          
+          tr.innerHTML = `
+            <td>#${row.index}</td>
+            <td>${relativeTimeText}</td>
+            <td><span class="badge ${badgeClass}">${row.prediction}</span></td>
+            <td><code>${probText}</code></td>
+          `;
+          tableBody.appendChild(tr);
+        });
+        
+        // Collapse details panel by default on load
+        btnToggleDetails.classList.remove('active');
+        detailsPanel.style.maxHeight = '0px';
+        
+        // Initialize timeline chart
+        renderChart(labels, baselineProbs, lowProbs, highProbs);
+      }
+
+      // Draw Chart.js probability paths
+      function renderChart(labels, baseline, low, high) {
+        if (chartInstance) {
+          chartInstance.destroy();
+        }
+        
+        const ctx = document.getElementById('predictionChart').getContext('2d');
+        
+        const showProbabilities = baseline.length > 0;
+        
+        const datasets = [];
+        if (showProbabilities) {
+          datasets.push({
+            label: 'Baseline Probability',
+            data: baseline,
+            borderColor: '#06b6d4',
+            backgroundColor: 'rgba(6, 182, 212, 0.05)',
+            borderWidth: 2,
+            tension: 0.35,
+            fill: true
+          });
+          datasets.push({
+            label: 'Low Engagement',
+            data: low,
+            borderColor: '#f59e0b',
+            backgroundColor: 'rgba(245, 158, 11, 0.05)',
+            borderWidth: 2,
+            tension: 0.35,
+            fill: true
+          });
+          datasets.push({
+            label: 'High Engagement',
+            data: high,
+            borderColor: '#a855f7',
+            backgroundColor: 'rgba(168, 85, 247, 0.05)',
+            borderWidth: 2,
+            tension: 0.35,
+            fill: true
+          });
+        }
+        
+        chartInstance = new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: datasets
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                labels: {
+                  color: '#9ca3af',
+                  font: {
+                    family: "'Inter', sans-serif",
+                    size: 11
+                  }
+                }
+              },
+              tooltip: {
+                mode: 'index',
+                intersect: false,
+                backgroundColor: 'rgba(17, 24, 39, 0.95)',
+                titleColor: '#fff',
+                bodyColor: '#f3f4f6',
+                borderColor: 'rgba(255, 255, 255, 0.08)',
+                borderWidth: 1,
+                titleFont: { family: "'Outfit', sans-serif" },
+                bodyFont: { family: "'Inter', sans-serif" }
+              }
+            },
+            scales: {
+              x: {
+                grid: { color: 'rgba(255, 255, 255, 0.03)' },
+                ticks: { color: '#9ca3af', font: { family: "'Inter', sans-serif" } }
+              },
+              y: {
+                min: 0,
+                max: 1,
+                grid: { color: 'rgba(255, 255, 255, 0.03)' },
+                ticks: {
+                  color: '#9ca3af',
+                  font: { family: "'Inter', sans-serif" },
+                  callback: function(value) {
+                    return (value * 100) + '%';
+                  }
+                }
+              }
+            }
+          }
+        });
+      }
+    </script>
   </body>
 </html>

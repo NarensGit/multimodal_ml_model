@@ -6,3 +6,4 @@ joblib
 matplotlib
 jupyter
 Flask
+openpyxl

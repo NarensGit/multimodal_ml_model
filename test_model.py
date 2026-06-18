@@ -17,8 +17,8 @@ ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / "models" / "engagement_recognition_model.joblib"
 COLS_PATH = ROOT / "models" / "feature_columns.joblib"
 # Output labels expected by the guide: lowercase textual labels
-# 0 -> disengaged, 1 -> engaged
-LABEL_MAP = {0: "disengaged", 1: "engaged"}
+# 0 -> baseline, 1 -> low, 2 -> high
+LABEL_MAP = {0: "baseline", 1: "low", 2: "high"}
 
 LABELS = None
 
@@ -44,14 +44,7 @@ def main():
     model, cols = load_model()
 
     df = pd.read_csv(args.features)
-    missing = [c for c in cols if c not in df.columns]
-    if missing:
-        print("The features CSV is missing required columns:", missing)
-        print("Available columns in the CSV:", list(df.columns)[:20])
-        sys.exit(1)
-
-    X = df[cols].copy()
-    X = X.fillna(0)
+    X = df.reindex(columns=cols, fill_value=0).copy().fillna(0)
 
     preds = model.predict(X)
     out_df = df.copy()

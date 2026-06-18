@@ -1,7 +1,7 @@
 # Multimodal ML Model — Quick Start
 
 Overview
-- This repository contains scripts and models for engagement recognition from wearable sensor data.
+- This repository contains scripts and models for 3-class engagement recognition from wearable sensor data.
 
 Prerequisites
 - Python 3.8+ and `pip`
@@ -10,8 +10,8 @@ Prerequisites
 
 Quick Commands
 - Prepare processed dataset: `python create_processed_dataset.py`
-- Create binary dataset: `python create_binary_dataset.py`
-- Train model: `python train_binary_model.py` (outputs saved under `models/`)
+- Train 3-class model: `python train_three_class_model.py --feature-set all`
+- Try feature combinations: `python train_three_class_model.py --feature-set sensor_only|sensor_plus_gaze|sensor_plus_context|all`
 - Run the web app / inference: `python app.py` (templates in `templates/`, results in `results/`)
 - Run smoke tests: `python smoke_test.py`
 - Run full tests: `python test_model.py`
@@ -26,6 +26,7 @@ Files & Folders
 Notes
 - Sample features are in `uploads/sample_features.csv` and `sample_features.csv`.
 - Pretrained model: `models/engagement_recognition_model.joblib` can be used for quick inference.
+- The feature extractor now includes optional gaze, session elapsed time, and intervention summary features when those files are present.
 - Logs: `train_log.txt` and `preprocess_log.txt` contain processing/training details.
 
 Next steps
